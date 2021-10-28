@@ -45,8 +45,8 @@ Math::Interval& Math::Interval::operator|(const Interval& R2) const
 Interval& Math::Interval::operator&(const Interval& R2) const
 {
     if (this->Max<R2.Min || this->Min>R2.Max)return *(new Interval);
-    if (this->Appartien(R2.Min) && this->Appartien(R2.Max))return *(new Interval(R2));
-    if (R2.Appartien(this->Min) && R2.Appartien(this->Max))return *(new Interval(*this));
+    if (this->Appartien(R2))return *(new Interval(R2));
+    if (R2.Appartien(*this))return *(new Interval(*this));
     Interval* New = new Interval;
     if (this->Max < R2.Max)
     {
