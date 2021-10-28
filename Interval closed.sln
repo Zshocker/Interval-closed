@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interval closed", "Interval closed\Interval closed.vcxproj", "{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}.Debug|x64.ActiveCfg = Debug|x64
+		{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}.Debug|x64.Build.0 = Debug|x64
+		{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}.Debug|x86.ActiveCfg = Debug|Win32
+		{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}.Debug|x86.Build.0 = Debug|Win32
+		{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}.Release|x64.ActiveCfg = Release|x64
+		{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}.Release|x64.Build.0 = Release|x64
+		{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}.Release|x86.ActiveCfg = Release|Win32
+		{C20E3A5B-4BB1-46B9-B2D8-0FE683E39340}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {206319DC-2D24-454E-80E4-24FC9E43A3C7}
+	EndGlobalSection
+EndGlobal
